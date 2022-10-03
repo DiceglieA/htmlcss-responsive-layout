@@ -110,7 +110,7 @@ html {
 }
 
 .card1 {
-    padding: 20px 2rem;
+    padding: 0 1rem;
     text-align: left;
 }
 
@@ -121,12 +121,14 @@ html {
     font-size: 2rem;
     padding: 20px 5px;
     font-size: 1.5rem;
-    white-space: nowrap;
+  
 }
 
 .card p {
-    padding: 1.5rem;
+    padding: 0.5rem 1rem;
 }
+
+
 
 .card-img img {
     width: 100%;
@@ -151,6 +153,8 @@ html {
     
 }
 
+
+/* tablet */
 @media screen and (min-width: 376px) {
     .container-card {
         display: flex;
@@ -167,9 +171,27 @@ html {
         
     }
 
-    .card1 img {
-        width: 60%;
-    }
+    
 
     
 }
+
+/* desktop */
+
+@media screen and (min-width: 811px) {
+    .card1 {
+        display: flex;
+    }
+
+    .txt {
+        width: 60%;
+    }
+
+    .container-card {
+        width: 70%;
+        margin: 1rem auto;
+    }
+
+}
+
+
