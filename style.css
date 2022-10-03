@@ -199,11 +199,14 @@ html {
 
 .violet {
     background-color: #9593e6;
+    padding: 1rem;
+    color: white;
 }
 
 .white {
     background-color: white;
     border-radius: 2rem;
+    color: black;
 }
 
 .developement {
@@ -219,6 +222,7 @@ html {
     background-color: #9593E6;
     border-radius: 50%;
     padding: 1rem 1.3rem;
+    margin: 1rem auto;
 }
 
 .card-title2 {
@@ -229,5 +233,28 @@ html {
 
 .violet p {
     padding: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
+.white p {
+    font-style: italic;
+}
+
+
+/* tablet */
+
+@media screen and (min-width: 376px) {
+    .big {
+        font-size: 3rem;
+    }
+}
+
+/* desktop */
+
+@media screen and (min-width: 811px) {
+    .violet {
+        display: flex;
+    }
+
+
+}
