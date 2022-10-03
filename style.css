@@ -195,3 +195,39 @@ html {
 }
 
 
+/* Sezione 2 */
+
+.violet {
+    background-color: #9593e6;
+}
+
+.white {
+    background-color: white;
+    border-radius: 2rem;
+}
+
+.developement {
+    text-align: center;
+    margin: auto;
+}
+
+.planning-img img {
+    width: 100%;
+}
+
+.violet .btn {
+    background-color: #9593E6;
+    border-radius: 50%;
+    padding: 1rem 1.3rem;
+}
+
+.card-title2 {
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding: 2rem 0;
+}
+
+.violet p {
+    padding: 0.5rem;
+}
+
