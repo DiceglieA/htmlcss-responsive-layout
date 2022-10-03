@@ -91,8 +91,62 @@ html {
         padding: 0.5rem;
         color: black;
     }
-    
-    
+   
+}
+
+/* sezione1 */
+
+.container-card {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.card {
+    background-color: #b5ddff;
+    margin: 20px 0;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 1.6em;
+}
+
+.card1 {
+    padding: 20px 2rem;
+    text-align: left;
 }
 
 
+.card-title {
+    color: #0084fd;
+    font-weight: bolder;
+    font-size: 2rem;
+    padding: 20px 5px;
+    font-size: 1.5rem;
+    white-space: nowrap;
+}
+
+.card p {
+    padding: 1.5rem;
+}
+
+.card-img img {
+    width: 100%;
+}
+
+.card .btn {
+    background-color: #0084fd;
+    padding: .5rem 3rem;
+    margin: 1rem 0;
+}
+
+.card .card-link {
+    text-decoration: none;
+    color: white;
+}
+
+.icon {
+    
+    color: #0084FD;
+    font-size: 5rem;
+    padding: 20px;
+    
+}
