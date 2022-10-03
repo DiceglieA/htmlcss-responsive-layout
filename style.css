@@ -2,5 +2,97 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
     font-family: 'Roboto', sans-serif;
 }
+
+/* General style */
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.btn {
+    all: unset;
+    display: inline-block;
+    white-space: nowrap;
+    border-radius: 10em;
+    cursor: pointer;
+}
+
+
+/* navbar */
+
+.nav-top {
+    background-color: #0084fd;
+    height: 4.7rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.nav-top .container {
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-top ul {
+    display: none;
+}
+
+.nav-top .hamburger {
+    color: white;
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width: 811px) {
+    .nav-top .hamburger {
+        display: none;
+    }
+    
+
+    .nav-top ul {
+        display: flex;
+        list-style: none;
+        color: white;
+        align-items: center;
+        height: 100%;
+        
+    }
+    
+    .nav-top li {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .nav-top .nav-link {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        text-decoration: none;
+        color: white;
+        padding: 0 1rem;
+    }
+    
+    
+    .nav-top .nav-link:hover {
+        background-color: aqua;
+    }
+    
+    .nav-top .btn {
+        background-color: white;
+        padding: 0.5rem;
+        color: black;
+    }
+    
+    
+}
+
+
