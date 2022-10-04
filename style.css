@@ -290,6 +290,7 @@ html {
 
 .testimonial-card p {
     padding: 1rem 0 ;
+    line-height: 1.6rem;
 }
 
 .test-img img {
@@ -325,4 +326,43 @@ html {
 
 
 /* sezione 4 */
+
+.title4 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.6rem;
+    margin: 3rem 1rem;
+}
+.number-card {
+    margin: 1.5rem 1rem;
+    padding: 1rem;
+    
+}
+
+.number {
+    padding: 0.5rem;
+    font-size: 2rem;
+    color: #9593E6;
+    font-weight: bolder;
+}
+
+.number-title {
+    color: #9593E6;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.number-card .btn {
+    background-color: #9593e6;
+    padding: .5rem 2.5rem;
+    margin: 1rem .5rem;
+    border-radius: 20rem;
+}
+
+.number-card p {
+    line-height: 1.6rem;
+}
+
+/* tablet */
+
 
