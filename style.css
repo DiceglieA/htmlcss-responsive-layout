@@ -267,10 +267,39 @@ html {
         margin: 4rem;
         padding: 2rem;
     }
-    .developement {
-        height: 60%;
-        
-    }
-
+    
 }
 
+/* modificare altezza immagine 2 sezione 2 */
+
+
+/* sezione3 */
+
+.testimonials {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.testimonial-card {
+    background-color: #9593E6;
+    margin: 2rem 1rem;
+    padding: 2rem 1rem;
+    border-radius: 20px;
+    color: white;
+}
+
+.testimonial-card p {
+    padding: 1rem 0 ;
+}
+
+.test-img img {
+    width: 100%;
+    clip-path: circle();
+}
+
+.test-title {
+    color: #9593E6;
+    font-size: bolder;
+    font-size: 1.6rem;
+    padding: 1rem;
+}
