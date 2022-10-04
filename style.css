@@ -341,7 +341,7 @@ html {
 
 .number {
     padding: 0.5rem;
-    font-size: 2rem;
+    font-size: 3rem;
     color: #9593E6;
     font-weight: bolder;
 }
@@ -357,6 +357,7 @@ html {
     padding: .5rem 2.5rem;
     margin: 1rem .5rem;
     border-radius: 20rem;
+    color: white;
 }
 
 .number-card p {
@@ -365,4 +366,33 @@ html {
 
 /* tablet */
 
+@media screen and (min-width: 376px) {
+    .container-number {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
+    .number-card {
+        flex: 1 1 45%;
+    }
+}
+
+/* desktop */
+
+
+@media screen and (min-width: 811px) {
+    .container-number {
+        width: 70%;
+        margin: 1rem auto;
+    }
+
+    .number-card {
+        flex: 1 1 30%;
+    }
+    
+    .title4 {
+        font-size: 2rem;
+    }
+}
+
+/* sezione 5 */
