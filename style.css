@@ -303,3 +303,26 @@ html {
     font-size: 1.6rem;
     padding: 1rem;
 }
+
+
+/* tablet */
+
+@media screen and (min-width: 376px) {
+    .testimonial-card {
+        display: flex;
+    }
+    
+}
+
+/* Desktop */
+
+@media screen and (min-width: 811px) {
+    .testimonials {
+        width: 70%;
+        margin: auto;
+    }
+}
+
+
+/* sezione 4 */
+
