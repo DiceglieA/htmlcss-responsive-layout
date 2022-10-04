@@ -203,6 +203,11 @@ html {
     color: white;
 }
 
+.container-card2 {
+    margin: 0 auto;
+    width: 90%;
+}
+
 .white {
     background-color: white;
     border-radius: 2rem;
@@ -252,9 +257,20 @@ html {
 /* desktop */
 
 @media screen and (min-width: 811px) {
-    .violet {
+    .contain-plan {
         display: flex;
+        width: 70%;
+        margin: 4rem auto;
     }
 
+    .planning-img {
+        margin: 4rem;
+        padding: 2rem;
+    }
+    .developement {
+        height: 60%;
+        
+    }
 
 }
+
