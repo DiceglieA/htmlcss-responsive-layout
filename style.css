@@ -571,3 +571,41 @@ html {
 
 /* footer */
 
+.grey {
+    background-color: #333333;
+    color: white;
+}
+
+.foot {
+    text-align: center;
+    padding: 2rem 2rem;
+    font-size: 0.8rem;
+}
+
+footer p {
+    padding: 2rem 0;
+}
+
+footer a {
+    color: #9593E6;
+}
+
+/* tablet */
+
+@media screen and (min-width: 376px) {
+    .foot {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+}
+
+/* desktop */
+
+@media screen and (min-width: 811px) {
+    .foot {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
